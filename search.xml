@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SearchSuite">
+   <test name="testCase">
+      <parameter name="term" value="Madhavi"/> 
+      <parameter name="limit" value="25"/>
+      <parameter name="country" value="US"/>
+      <parameter name="media" value="Software"/>
+      
+      <classes>
+         <class name=SearchAPI />
+   	  </classes>
+   </test>
+</suite>

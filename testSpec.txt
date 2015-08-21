@@ -1,0 +1,28 @@
+1. Test the Key Values with different options
+      a) Test the endpoint URI https://itunes.apple.com/search?term=term_value
+      b) Test the endpoint URI https://itunes.apple.com/search?country=country_value
+      c) Test the endpoint URI https://itunes.apple.com/search?media=media_value
+      d) Test the endpoint URI https://itunes.apple.com/search?limit=limit_value
+      
+      Here you can do permutations 4p3 times like
+      
+      e) Test the endpoint URI https://itunes.apple.com/search?country=country_value&term=term_value
+      d) Test the endpoint URI https://itunes.apple.com/search?country=country_value&limit=limit_value
+      f) Test the endpoint URI https://itunes.apple.com/search?country=country_value&limit=limit_value&term=term_value&media=media_vlaue
+ 
+ 2. Deep module testing of each function. 
+        term, limit, media and country value ranges, boundary testing, negative testing….
+        
+
+3. performance testing:  
+
+4. usability test:  Ex.  Repetetive key multiple times.
+  
+  
+  <!-- 
+   <test name="testCase2">
+      <parameter2 name="test" value="Manisha"/> 
+   </test>
+   
+   
+  
